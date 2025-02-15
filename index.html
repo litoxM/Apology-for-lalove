@@ -3,40 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Apology</title>
+    <title>Apology</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
-            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('IMG_17394324960800318.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
             color: white;
             font-family: Arial, sans-serif;
-            text-align: center;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
             padding: 20px;
+            border-radius: 10px;
         }
         h1 {
-            margin-top: 20%;
+            margin-bottom: 10px;
         }
-        a {
-            color: cyan;
-            text-decoration: none;
-            font-size: 20px;
-            border: 2px solid cyan;
-            padding: 10px 20px;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 20px;
+        p {
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Apology</h1>
-    <p>I have something important to say...</p>
-    <a href="apology.html">Enter</a>
-
-    <script>
-        // Automatically redirect after 5 seconds
-        setTimeout(() => {
-            window.location.href = "apology.html";
-        }, 5000);
-    </script>
+    <div class="container">
+        <h1>I'm Sorry, Karidad</h1>
+        <p>This is my way of expressing how much you mean to me. I may not have been perfect, but my love and devotion to you are eternal.</p>
+    </div>
 </body>
 </html>
